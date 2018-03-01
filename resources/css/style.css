@@ -390,11 +390,17 @@ footer {
 footer .content {
   color: white;
   display: flex;
-  font-size: .75rem;
 }
 
 footer .copyright {
   flex-grow: 1;
+  font-size: 12px;
+  font-family: "Roboto" , sans-serif;
+}
+
+footer .location {
+  font-size: 12px;
+  font-family: "Roboto" , sans-serif;
 }
 
 @media only screen and (min-width: 760px) {
