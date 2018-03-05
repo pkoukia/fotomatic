@@ -243,6 +243,10 @@ header .mobile {
   margin: 0 auto;
 }
 
+.feature .content {
+  padding: 2.5rem 0;
+}
+
 .feature h2 {
   padding-bottom: .5rem;
   font-family: "Robot-bold", sans-serif;
@@ -317,10 +321,6 @@ header .mobile {
   padding: 0 1%;
 }
 
-.image-container {
-  overflow: hidden;
-}
-
 @media only screen and (max-width: 760px) {
   #filters-section {
     padding: 1.5rem 0 0 0;
@@ -357,11 +357,11 @@ header .mobile {
   background-color: #f3f3f3;
 }
 
-#quotes-section content {
+#quotes-section .content {
   padding: 5rem 0;
 }
 
-#quotes-section quote {
+#quotes-section .quote {
   padding-right: 1.875rem;
   font-family: "Palatino", serif;
   font-size: 1.875rem;
@@ -401,6 +401,7 @@ footer {
 footer .content {
   color: white;
   display: flex;
+  font-size: .75rem;
 }
 
 footer .copyright {
